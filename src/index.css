@@ -4,11 +4,25 @@ html, body{
     margin:  0;
     padding: 0;
     font-family: "Space Grotesk", sans-serif;
-    background: #001d3d;
+    background: black;
     color: aliceblue;
 }
 
 @layer utilities {
+    @keyframes BLINK {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+             opacity: 0;;
+        }
+    }
+
+    .animate-blink {
+        animation: blink 0.8s step-end infinite;
+    }
+
+
     @keyframes loading {
         0% {
             transform: translateX(-100%);
