@@ -46,10 +46,10 @@ export const Contact = () => {
         <a href="madushanka20021224@gmail.com" className="hover:text-pink-500">
           <FaEnvelope />
         </a>
-        <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" className="hover:text-pink-500">
+        <a href="https://www.linkedin.com/in/madushanka-sandaruwan-590297275/" target="_blank" className="hover:text-pink-500">
           <FaLinkedin />
         </a>
-        <a href="https://github.com/YOUR_GITHUB" target="_blank" className="hover:text-pink-500">
+        <a href="https://github.com/Madushanka24" target="_blank" className="hover:text-pink-500">
           <FaGithub />
         </a>
       </div>
