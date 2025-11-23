@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import profilePic from '../assets/D85_5942.jpg'; // Updated image
+import profilePic from '../assets/IMG-20250828-WA0085~2.jpg'; // Updated image
 
 export const About = () => (
   <motion.section
