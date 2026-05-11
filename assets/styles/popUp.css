@@ -1,0 +1,117 @@
+.pop-up-box-for-card-03,.pop-up-box-for-card-08 {
+    width: 350px;
+    height: 370px;
+    border-radius: 30px;
+    background: #E0E0E0;
+    border: 3px solid rgba(39, 60, 115, 0.88);
+    box-shadow: rgba(0, 0, 0, 0.8) 0 22px 70px 4px;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    top: -60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+.pop-up-box-for-card-08 {
+    width: 350px;
+    height: 225px;
+}
+
+.display-card-03 {
+    position:fixed;
+    top: calc(50% - 25px);
+    visibility: visible;
+}
+
+.display-card-04 {
+    position:fixed;
+    top: calc(50% - 25px);
+    visibility: visible;
+}
+
+.display-card-08 {
+    position:fixed;
+    top: calc(50% - 25px);
+    visibility: visible;
+}
+
+.blur-background {
+    filter: blur(5px);
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+.as-03-cases {
+    width: 330px;
+    height: 40px;
+    color: #E0E0E0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #f0932b;
+    background-color: #192A56;
+    border-radius: 15px 0 15px 0;
+    transition-duration: 0.2s;
+}
+
+.pop-up-box-for-card-03-content,.pop-up-box-for-card-08-content {
+    width: 338px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    row-gap: 8px;
+    transition: all 0.5s;
+}
+
+.pop-up-box-for-card-08-content {
+    width: 338px;
+    height: 195px;
+}
+
+.close {
+    border: 2px solid #192A56;
+    color: #192A56;
+    background-color: #fbac00;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 120px;
+    height: fit-content;
+    cursor: pointer;
+    font-size: 17px;
+    transition-duration: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+.close:hover {
+    border: 2px solid #192A56;
+    border-radius: 10px 0 10px 0;
+    font-weight: 750;
+    background-color: #f0932b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+}
+
+.as-03-cases:hover {
+    font-weight: 800;
+    color: #001b68;
+    border: 2px solid #192A56;
+    background-color: #f0932b;
+    border-radius: 0 15px 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+}
